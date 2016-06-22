@@ -29,6 +29,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+#add haml gems
+gem 'haml', '~> 4.0', '>= 4.0.7'
+#simple form gems
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+#using devise gem for authentication of our user
+gem 'devise', '~> 4.1', '>= 4.1.1'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
