@@ -2,7 +2,7 @@
 	.banner_content
 		%h1 NoteBook
 		%p Your online private notebook.
-		%button= link_to "Sign Up", new_user_registration_path
+		= link_to "Sign Up", new_user_registration_path, class: "button"
 
 #testimonial
 	.wrapper
@@ -30,7 +30,7 @@
 	.wrapper
 		%h2 Seriously Awesome Notes!
 		%p Why don't you sign up and no one else has to get hurt?
-		%button= link_to "Click Me Bro", new_user_registration_path
+		= link_to "Click Me Bro", new_user_registration_path, class: "button"
 
 %footer
 	%p &copy; MetCorp Ingineering
